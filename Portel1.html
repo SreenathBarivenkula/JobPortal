@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend development -Job portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portel.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Job Portal</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="portel1.html">Frontend Development</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portel2.html">Backend Development</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h1>Welcome to the Job Portal</h1>
+        <p>Upload your resume and fill in your details to start your job search for frontend development roles.</p>
+
+        <!-- Resume Upload Form -->
+        <form>
+            <div class="form-group">
+                <label for="resume">Upload Resume</label>
+                <input type="file" class="form-control-file" id="resume" accept=".pdf, .doc, .docx">
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Ex:first name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Ex:surname">
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="boot@example.com">
+                </div>
+    
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="123-456-7890">
+                </div>
+    
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn Profile</label>
+                    <input type="url" class="form-control" id="linkedin" placeholder="https://www.linkedin.com/in/sree">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    
+        <!-- Footer -->
+        <footer class="bg-primary text-dark text-center py-2">
+            &copy; 2023 Job Portal designed by B.Sreenath
+        </footer>
+    
+       
+    </body>
+    </html>
